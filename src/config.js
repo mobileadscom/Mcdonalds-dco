@@ -46,7 +46,8 @@ export default {
 					"Afternoon": {
 						"text": "Have an amazing {{day}} meal at McDonald's",
 						"style": "color:white"
-					}
+					},
+					"Other": "Have an amazing {{day}} meal at McDonald's"
 				}
 			},
             "Other": "Have an amazing {{day}} meal at McDonald's"
@@ -105,6 +106,10 @@ export default {
 						"url": "https://www.mcdonalds.com/us/en-us/mcdelivery.html"
 					}
 				}
+			},
+			"Japanese": {
+				"text": "Order Now",
+				"url": "https://mcdelivery.mcdonalds.com/jp/?locale=en"
 			},
             "Other": {
 				"text": "Order Now",
