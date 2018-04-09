@@ -71,7 +71,7 @@ class AdUnit extends Mads {
       <p id="ad-description"${ad.description.style}>${ad.description.text}</p>
       <a id="ad-cta"${ad.cta.style} target="_blank" href="${ad.cta.url}">${ad.cta.text}</a>
     `;
-    console.log(window.loadYoutube);
+
     if (ad.creative.type === "video") {
       if (!window.loadYoutube) {
         // Load the IFrame Player API code asynchronously.
