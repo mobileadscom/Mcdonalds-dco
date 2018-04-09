@@ -1,0 +1,60 @@
+label {
+  width: 150px;
+  display: inline-block;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed');
+
+#rma-widget, #ad-container {
+  width: 320px;
+  height: 300px;
+}
+
+#ad-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+#ad-background {
+  width: 320px;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+#ad-headline {
+  margin: 0.4em;
+  text-align: center;
+  font-size: 1.6em;
+  position: relative;
+  z-index: 10;
+}
+
+#ad-description {
+  margin: 1em;
+  padding: 0;
+  position: relative;
+  z-index: 10;
+}
+
+#ad-cta {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 1em;
+  border-radius: 3px;
+  background: #ff6655;
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  z-index: 10;
+}

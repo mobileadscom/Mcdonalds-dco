@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MADS_Project_Somersby_Magic_Moments</title>
+</head>
+<body>
+  <div style="margin-top: 330px;">
+    <h5>play with options</h5>
+    <label for="time">Time</label>
+    <input id="time" onchange="window.ad = new AdUnit(true)"><br>
+
+    <label for="timeOfDay">Time Of Day</label>
+    <select onchange="window.ad = new AdUnit(true)" id="timeOfDay">
+      <option value="Morning">Morning</option>
+      <option value="Afternoon">Afternoon</option>
+      <option value="Evening">Evening</option>
+      <option value="Night">Night</option>
+    </select><br>
+
+    <label for="day">Week day</label>
+    <select onchange="window.ad = new AdUnit(true)" id="day">
+      <option value="Monday">Monday</option>
+      <option value="Tuesday">Tuesday</option>
+      <option value="Wednesday">Wednesday</option>
+      <option value="Thursday">Thursday</option>
+      <option value="Friday">Friday</option>
+      <option value="Saturday">Saturday</option>
+      <option value="Sunday">Sunday</option>
+    </select><br>
+
+    <label for="os">Os</label>
+    <input id="os" onchange="window.ad = new AdUnit(true)"><br>
+
+    <label for="language">Language</label>
+    <input id="language" onchange="window.ad = new AdUnit(true)"><br>
+
+    <label for="device">Device</label>
+    <select onchange="window.ad = new AdUnit(true)" id="device">
+      <option value="Mobile">Mobile</option>
+      <option value="Tablet">Tablet</option>
+      <option value="Desktop">Desktop</option>
+    </select><br>
+
+    <label for="city">City</label>
+    <input id="city" onchange="window.ad = new AdUnit(true)"><br>
+
+    <label for="country">Country</label>
+    <input id="country" onchange="window.ad = new AdUnit(true)"><br>
+
+    <label for="weather">Weather</label>
+    <select onchange="window.ad = new AdUnit(true)" id="weather">
+      <option value="Sunny">Sunny</option>
+      <option value="Cloudy">Cloudy</option>
+      <option value="Rainy">Rainy</option>
+    </select><br>
+  </div>
+
+  <div id="rma-widget"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
