@@ -1,6 +1,6 @@
-# MADS_Project_Somersby_Magic_Moments
+# MADS_Project_Mcdonalds-DCO_DEMO
 
-MobileAds Custom Ad SDK, you can create your own creative ad and plug it into our MobileAds container to serve ou to any of our certified inventories.
+Mcdonalds Dynamic Content Demo
 
 ## Requirements
 
@@ -18,9 +18,6 @@ _optional_ Install Yarn
 ➜  npm start or yarn start
 ```
 
-Modify 'main.js' and see the live changes on your browsers
-
-render
 
 ## Deployment
 
