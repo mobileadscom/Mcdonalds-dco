@@ -53,9 +53,9 @@ const getEnvironmentPromise = new Promise((resolve, reject) => {
           }
         };
 
-        request.open('GET', "http://api.openweathermap.org/data/2.5/weather?" +
-          "lat=" + locationResponse.lat + '&' +
-          "lon=" + locationResponse.lon + '&' +
+        request.open('GET', "https://api.openweathermap.org/data/2.5/weather?" +
+          "lat=" + locationResponse.latitude + '&' +
+          "lon=" + locationResponse.longitude + '&' +
           "units=metric" + '&' +
           "APPID=05233ff759e21c294b058dfe648b690b",
           true);
@@ -63,7 +63,7 @@ const getEnvironmentPromise = new Promise((resolve, reject) => {
       }
     };
 
-    request.open('GET', 'http://ip-api.com/json/', true);
+    request.open('GET', 'https://ipapi.co/json', true);
     request.send();
   }
   catch (e) {
