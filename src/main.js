@@ -14,16 +14,17 @@ class AdUnit extends Mads {
     super();
     this.json = null;
     if (getLocally) {
-      const conditions = {};
+      this.conditions = {};
       const inputs = document.querySelectorAll('input, select');
       for (const input of inputs) {
         const conditionName = input.id;
-        conditions[conditionName] = input.value;
+        this.conditions[conditionName] = input.value;
       }
-      setTimeout(() => this.doInit(conditions), 500);
     }
     else {
-      getEnvVars.then(conditions => this.doInit(conditions));
+      getEnvVars.then(conditions => {
+        console.log(conditions);
+        this.doInit(conditions)});
     }
   }
 
@@ -50,6 +51,9 @@ class AdUnit extends Mads {
 
 
   render() {
+    setTimeout(() => {
+      this.doInit(this.conditions)
+    }, 300);
     return `
       <div id="ad-container"></div>
     `;
