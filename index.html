@@ -32,10 +32,17 @@
     </select><br>
 
     <label for="os">Os</label>
-    <input id="os" onchange="window.ad = new AdUnit(true)"><br>
+    <select onchange="window.ad = new AdUnit(true)" id="os">
+      <option value="Win32">Windows</option>
+      <option value="Android">Android</option>
+      <option vaue="IOS">Ios</option>
+    </select><br>
 
     <label for="language">Language</label>
-    <input id="language" onchange="window.ad = new AdUnit(true)"><br>
+    <select onchange="window.ad = new AdUnit(true)" id="language">
+      <option value="English">English</option>
+      <option value="Japanese">Japanese</option> 
+    </select><br>
 
     <label for="device">Device</label>
     <select onchange="window.ad = new AdUnit(true)" id="device">
@@ -48,7 +55,11 @@
     <input id="city" onchange="window.ad = new AdUnit(true)"><br>
 
     <label for="country">Country</label>
-    <input id="country" onchange="window.ad = new AdUnit(true)"><br>
+    <select onchange="window.ad = new AdUnit(true)" id="country">
+      <option value="MY">Malaysia</option>
+      <option value="ID">Indonesia</option>
+      <option value="JP">Japan</option>
+    </select><br>
 
     <label for="weather">Weather</label>
     <select onchange="window.ad = new AdUnit(true)" id="weather">

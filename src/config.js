@@ -83,15 +83,15 @@ export default {
 					},
 					"Desktop": {
 						"country": {
-							"Japan": {
+							"JP": {
 								"text": "Order Now",
 								"url": "https://mcdelivery.mcdonalds.com/jp/?locale=en",
 							},
-							"Indonesia": {
+							"ID": {
 								"text": "Order Now",
 								"url": "https://www.mcdelivery.co.id/id/?locale=en",
 							},
-							"Malaysia": {
+							"MY": {
 								"text": "Order Now",
 								"url": "https://www.mcdelivery.com.my",
 							},
