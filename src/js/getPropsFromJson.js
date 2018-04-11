@@ -83,8 +83,8 @@ export function getParamsFromJson(json, conditionsLowercase) {
    
 export function processMacrosInParams(params, conditions) {
     const replaceMacros = (string) => {
-        let language = params.language;
-        if (language === "English") {
+        let language = conditions.language;
+        if (language === "English" || language === "Japanese") {
             language = false;
         }
         for (const i in conditions) {

@@ -43,6 +43,7 @@
       <label for="language">Language</label>
       <select onchange="window.ad = new AdUnit(true)" id="language">
         <option value="English">English</option>
+        <option value="Indonesian">Indonesian</option>
         <option value="Japanese">Japanese</option> 
       </select><br>
 
@@ -56,8 +57,8 @@
       <label for="city">City</label>
       <input id="city" onchange="window.ad = new AdUnit(true)"><br>
 
-      <label for="country">Country</label>
-      <select onchange="window.ad = new AdUnit(true)" id="country">
+      <label for="country" style="display: none;">Country</label>
+      <select onchange="window.ad = new AdUnit(true)" id="country" style="display: none;">
         <option value="MY">Malaysia</option>
         <option value="ID">Indonesia</option>
         <option value="JP">Japan</option>
@@ -81,21 +82,21 @@
         </ul>
         <li>Description</li>
         <ul>
-          <li>Monday, Morning &amp; English - Monday Blue? Have an amazing breakfast at McDonald's</li>
-          <li>Friday, Morning &amp; English - TGIF! Have an amazing breakfast at McDonald's</li>
-          <li>Any day, Morning &amp; English - Have an amazing breakfast at McDonald's</li>
-          <li>Any day, Afternoon &amp; English - Lunch Time! McDonald's lunch meal starts from $1.99</li>
-          <li>Friday, Evening &amp; English - TGIF! McDonald's Dinner Treat is serving now</li>
-          <li>Any day, Evening &amp; English - McDonald's Dinner Treat is serving now</li>
-          <li>Fallback - Have an amazing {{day}} meal at McDonald's</li>
+          <li>Monday, Morning &amp; English - Monday Blues? Have an amazing breakfast at McDonald’s</li>
+          <li>Friday, Morning &amp; English - TGIF! Go grab an amazing breakfast at McDonald’s</li>
+          <li>Any day, Morning &amp; English - Good Morning! Start your day with an amazing breakfast at McDonald’s</li>
+          <li>Any day, Afternoon &amp; English - Time for Lunch! Value meal starts at only $1.99</li>
+          <li>Friday, Evening &amp; English - TGIF! Celebrate it with McDonald’s Dinner Treats! </li>
+          <li>Any day, Evening &amp; English - Hungry? McDonald’s Dinner Treats is serving now</li>
+          <li>Fallback - Have an amazing {{day}} meal at McDonald’s</li>
         </ul>
         <li>Call to Action Button</li>
           <ul>
             <li>Mobile, English &amp; Raining - Call Us Now, link to <a href="https://www.mcdonalds.com/us/en-us/mcdelivery.html">https://www.mcdonalds.com/us/en-us/mcdelivery.html</a></li>
             <li>Tablet, English &amp; Sunny - McDonald's in {{city}} (GMAP), show google map with Mcdonald's in the city</li>
-            <li>Desktop, English &amp; Japan - Order Now, link to <a href="https://mcdelivery.mcdonalds.com/jp/?locale=en">https://mcdelivery.mcdonalds.com/jp/?locale=en</a></li>
-            <li>Desktop, English &amp; Indonesia - Order Now, link to <a href="https://www.mcdelivery.co.id/id/?locale=en">https://www.mcdelivery.co.id/id/?locale=en</a></li>
-            <li>Desktop, English &amp; Malaysia - Order Now, link to <a href="https://www.mcdelivery.com.my">https://www.mcdelivery.com.my</a></li>
+            <li>Desktop, Japanese - Order Now, link to <a href="https://mcdelivery.mcdonalds.com/jp/?locale=en">https://mcdelivery.mcdonalds.com/jp/?locale=en</a></li>
+            <li>Desktop, Indonesian - Order Now, link to <a href="https://www.mcdelivery.co.id/id/?locale=en">https://www.mcdelivery.co.id/id/?locale=en</a></li>
+            <li>Desktop, English - Order Now, link to <a href="https://www.mcdonalds.com/us/en-us/mcdelivery.html">https://www.mcdonalds.com/us/en-us/mcdelivery.html</a></li>
             <li>Fallback - Order Now, link to <a href="https://www.mcdonalds.com/us/en-us/mcdelivery.html">https://www.mcdonalds.com/us/en-us/mcdelivery.html</a></li>
           </ul>
       </ul> 
