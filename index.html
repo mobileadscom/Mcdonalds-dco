@@ -70,6 +70,79 @@
         <option value="Cloudy">Cloudy</option>
         <option value="Rainy">Rainy</option>
       </select><br>
+      
+      <script type="text/javascript">
+        function applyCondition(val) {
+          var conds = {
+            Normal: {
+              language: 'English'
+            },
+            Youtube: {
+              language: 'Japanese',
+              timeOfDay: 'Afternoon'
+            },
+            MondayMorning: {
+              language: 'English',
+              timeOfDay: 'Morning',
+              day: 'Monday'
+            },
+            FridayMorning: {
+              language: 'English',
+              timeOfDay: 'Morning',
+              day: 'Friday'
+            },
+            FridayEvening: {
+              language: 'English',
+              timeOfDay: 'Evening',
+              day: 'Friday'
+            },
+            Japanese: {
+              device: 'Desktop',
+              language: 'Japanese'
+            },
+            Indonesian: {
+              device: 'Desktop',
+              language: 'Indonesian'
+            },
+            Normal: {
+              device: 'Desktop',
+              language: 'English'
+            },
+            GMAP: {
+              device: 'Tablet',
+              weather: 'Sunny'
+            }
+          };
+
+          if (conds[val]) {
+            for (var i in conds[val]) {
+              document.getElementById(i).value = conds[val][i];
+            }
+            window.ad = new AdUnit(true);
+          }
+        }
+      </script>
+      <label for="conditions">Special Conditions</label>
+      <select onchange="applyCondition(this.value)" id="conditions">
+        <optgroup label="Background">
+          <option value="Normal">Normal</option>
+          <option value="Youtube">Youtube</option>
+        </optgroup>
+
+        <optgroup label="Description">
+          <option value="MondayMorning">Monday Blues</option>
+          <option value="FridayMorning">TGIF Morning</option>
+          <option value="FridayEvening">TGIF Evening</option>
+        </optgroup>
+
+        <optgroup label="CTA Link">
+          <option value="Japanese">Mcdonald's Japan</option>
+          <option value="Indonesian">Mcdonald's Indonesia</option>
+          <option value="Normal">Normal</option>
+          <option value="GMAP">Mcdonald's Google Map</option>
+        </optgroup>
+
+      </select><br>
     </div>
     <div class="right-section">
       <h3>Available Combinations</h3>

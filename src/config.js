@@ -23,9 +23,6 @@ export default {
 						"type": "image",
 						"url": "./img/bg-night-sunny.jpg"
 					}
-				},
-				"country&&os": {
-
 				}
 			},
 			"Cloudy": {
