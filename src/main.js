@@ -71,10 +71,13 @@ class AdUnit extends Mads {
 
     document.getElementById('ad-container').innerHTML = `
       ${backgroundNode}
-      <h1 id="ad-headline"${ad.headline.style}>${ad.headline.text}</h1>
+      <!--<h1 id="ad-headline"${ad.headline.style}>${ad.headline.text}</h1>-->
+      <img id="ad-headline" src="./img/logo.png" />
       <p id="ad-description"${ad.description.style}>${ad.description.text}</p>
       <a id="ad-cta"${ad.cta.style} target="_blank" href="${ad.cta.url}">${ad.cta.text}</a>
     `;
+
+    document.getElementById('ad-container').className = ad.creative.type !== 'image' ? 'video-bg' : ''
 
     if (ad.creative.type === "video") {
       if (!window.loadYoutube) {

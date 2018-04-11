@@ -5,68 +5,102 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>McDonald's DCO DEMO</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 <body>
-  <div style="margin-top: 330px;">
-    <h5>play with options</h5>
-    <label for="time">Time</label>
-    <input id="time" onchange="window.ad = new AdUnit(true)"><br>
+  <div class="container">
+    <div class="left-section">
+      <h3>Play With Options</h3>
+      <label for="time">Time</label>
+      <input id="time" onchange="window.ad = new AdUnit(true)"><br>
 
-    <label for="timeOfDay">Time Of Day</label>
-    <select onchange="window.ad = new AdUnit(true)" id="timeOfDay">
-      <option value="Morning">Morning</option>
-      <option value="Afternoon">Afternoon</option>
-      <option value="Evening">Evening</option>
-      <option value="Night">Night</option>
-    </select><br>
+      <label for="timeOfDay">Time Of Day</label>
+      <select onchange="window.ad = new AdUnit(true)" id="timeOfDay">
+        <option value="Morning">Morning</option>
+        <option value="Afternoon">Afternoon</option>
+        <option value="Evening">Evening</option>
+        <option value="Night">Night</option>
+      </select><br>
 
-    <label for="day">Week day</label>
-    <select onchange="window.ad = new AdUnit(true)" id="day">
-      <option value="Monday">Monday</option>
-      <option value="Tuesday">Tuesday</option>
-      <option value="Wednesday">Wednesday</option>
-      <option value="Thursday">Thursday</option>
-      <option value="Friday">Friday</option>
-      <option value="Saturday">Saturday</option>
-      <option value="Sunday">Sunday</option>
-    </select><br>
+      <label for="day">Week day</label>
+      <select onchange="window.ad = new AdUnit(true)" id="day">
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Saturday">Saturday</option>
+        <option value="Sunday">Sunday</option>
+      </select><br>
 
-    <label for="os">Os</label>
-    <select onchange="window.ad = new AdUnit(true)" id="os">
-      <option value="Win32">Windows</option>
-      <option value="Android">Android</option>
-      <option vaue="IOS">Ios</option>
-    </select><br>
+      <label for="os">Os</label>
+      <select onchange="window.ad = new AdUnit(true)" id="os">
+        <option value="Win32">Windows</option>
+        <option value="Android">Android</option>
+        <option vaue="IOS">Ios</option>
+      </select><br>
 
-    <label for="language">Language</label>
-    <select onchange="window.ad = new AdUnit(true)" id="language">
-      <option value="English">English</option>
-      <option value="Japanese">Japanese</option> 
-    </select><br>
+      <label for="language">Language</label>
+      <select onchange="window.ad = new AdUnit(true)" id="language">
+        <option value="English">English</option>
+        <option value="Japanese">Japanese</option> 
+      </select><br>
 
-    <label for="device">Device</label>
-    <select onchange="window.ad = new AdUnit(true)" id="device">
-      <option value="Mobile">Mobile</option>
-      <option value="Tablet">Tablet</option>
-      <option value="Desktop">Desktop</option>
-    </select><br>
+      <label for="device">Device</label>
+      <select onchange="window.ad = new AdUnit(true)" id="device">
+        <option value="Mobile">Mobile</option>
+        <option value="Tablet">Tablet</option>
+        <option value="Desktop">Desktop</option>
+      </select><br>
 
-    <label for="city">City</label>
-    <input id="city" onchange="window.ad = new AdUnit(true)"><br>
+      <label for="city">City</label>
+      <input id="city" onchange="window.ad = new AdUnit(true)"><br>
 
-    <label for="country">Country</label>
-    <select onchange="window.ad = new AdUnit(true)" id="country">
-      <option value="MY">Malaysia</option>
-      <option value="ID">Indonesia</option>
-      <option value="JP">Japan</option>
-    </select><br>
+      <label for="country">Country</label>
+      <select onchange="window.ad = new AdUnit(true)" id="country">
+        <option value="MY">Malaysia</option>
+        <option value="ID">Indonesia</option>
+        <option value="JP">Japan</option>
+      </select><br>
 
-    <label for="weather">Weather</label>
-    <select onchange="window.ad = new AdUnit(true)" id="weather">
-      <option value="Sunny">Sunny</option>
-      <option value="Cloudy">Cloudy</option>
-      <option value="Rainy">Rainy</option>
-    </select><br>
+      <label for="weather">Weather</label>
+      <select onchange="window.ad = new AdUnit(true)" id="weather">
+        <option value="Sunny">Sunny</option>
+        <option value="Cloudy">Cloudy</option>
+        <option value="Rainy">Rainy</option>
+      </select><br>
+    </div>
+    <div class="right-section">
+      <h3>Available Combinations</h3>
+      
+      <ul>
+        <li>Background Creatives</li>
+        <ul>
+          <li>Afternoon &amp; Japanese - Youtube Video As Background</li>
+          <li>Fallback - Static Image</li>          
+        </ul>
+        <li>Description</li>
+        <ul>
+          <li>Monday, Morning &amp; English - Monday Blue? Have an amazing breakfast at McDonald's</li>
+          <li>Friday, Morning &amp; English - TGIF! Have an amazing breakfast at McDonald's</li>
+          <li>Any day, Morning &amp; English - Have an amazing breakfast at McDonald's</li>
+          <li>Any day, Afternoon &amp; English - Lunch Time! McDonald's lunch meal starts from $1.99</li>
+          <li>Friday, Evening &amp; English - TGIF! McDonald's Dinner Treat is serving now</li>
+          <li>Any day, Evening &amp; English - McDonald's Dinner Treat is serving now</li>
+          <li>Fallback - Have an amazing {{day}} meal at McDonald's</li>
+        </ul>
+        <li>Call to Action Button</li>
+          <ul>
+            <li>Mobile, English &amp; Raining - Call Us Now, link to <a href="https://www.mcdonalds.com/us/en-us/mcdelivery.html">https://www.mcdonalds.com/us/en-us/mcdelivery.html</a></li>
+            <li>Tablet, English &amp; Sunny - McDonald's in {{city}} (GMAP), show google map with Mcdonald's in the city</li>
+            <li>Desktop, English &amp; Japan - Order Now, link to <a href="https://mcdelivery.mcdonalds.com/jp/?locale=en">https://mcdelivery.mcdonalds.com/jp/?locale=en</a></li>
+            <li>Desktop, English &amp; Indonesia - Order Now, link to <a href="https://www.mcdelivery.co.id/id/?locale=en">https://www.mcdelivery.co.id/id/?locale=en</a></li>
+            <li>Desktop, English &amp; Malaysia - Order Now, link to <a href="https://www.mcdelivery.com.my">https://www.mcdelivery.com.my</a></li>
+            <li>Fallback - Order Now, link to <a href="https://www.mcdonalds.com/us/en-us/mcdelivery.html">https://www.mcdonalds.com/us/en-us/mcdelivery.html</a></li>
+          </ul>
+      </ul> 
+    </div>
+
   </div>
 
   <div id="rma-widget"></div>
