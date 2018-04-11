@@ -118,7 +118,7 @@ export default {
 					"any&&Morning": "Good Morning! Start your day with an amazing breakfast at McDonald’s",
 					"any&&Afternoon": "Time for Lunch! Value meal starts at only $1.99",
 					"any&&Evening": "Hungry? McDonald’s Dinner Treats is serving now",
-					"any&&any": "Hungry? McDonald’s Dinner Treats is serving now"
+					"any&&any": "Have an amazing {{day}} meal at McDonald’s"
 				}
 			},
 			"Wednesday": {
@@ -134,7 +134,7 @@ export default {
 					"any&&Morning": "Good Morning! Start your day with an amazing breakfast at McDonald’s",
 					"any&&Afternoon": "Time for Lunch! Value meal starts at only $1.99",
 					"any&&Evening": "Hungry? McDonald’s Dinner Treats is serving now",
-					"any&&any": "Hungry? McDonald’s Dinner Treats is serving now"
+					"any&&any": "Have an amazing {{day}} meal at McDonald’s"
 				}
 			},
 			"Thursday": {
@@ -150,7 +150,7 @@ export default {
 					"any&&Morning": "Good Morning! Start your day with an amazing breakfast at McDonald’s",
 					"any&&Afternoon": "Time for Lunch! Value meal starts at only $1.99",
 					"any&&Evening": "Hungry? McDonald’s Dinner Treats is serving now",
-					"any&&any": "Hungry? McDonald’s Dinner Treats is serving now"
+					"any&&any": "Have an amazing {{day}} meal at McDonald’s"
 				}
 			},
 			"Friday": {
@@ -182,7 +182,7 @@ export default {
 					"any&&Morning": "Good Morning! Start your day with an amazing breakfast at McDonald’s",
 					"any&&Afternoon": "Time for Lunch! Value meal starts at only $1.99",
 					"any&&Evening": "Hungry? McDonald’s Dinner Treats is serving now",
-					"any&&any": "Hungry? McDonald’s Dinner Treats is serving now"
+					"any&&any": "Have an amazing {{day}} meal at McDonald’s"
 				}
 			},
 			"Sunday": {
@@ -198,7 +198,7 @@ export default {
 					"any&&Morning": "Good Morning! Start your day with an amazing breakfast at McDonald’s",
 					"any&&Afternoon": "Time for Lunch! Value meal starts at only $1.99",
 					"any&&Evening": "Hungry? McDonald’s Dinner Treats is serving now",
-					"any&&any": "Hungry? McDonald’s Dinner Treats is serving now"
+					"any&&any": "Have an amazing {{day}} meal at McDonald’s"
 				}
 			},
 			"Other": {
@@ -214,7 +214,7 @@ export default {
 					"any&&Morning": "Good Morning! Start your day with an amazing breakfast at McDonald’s",
 					"any&&Afternoon": "Time for Lunch! Value meal starts at only $1.99",
 					"any&&Evening": "Hungry? McDonald’s Dinner Treats is serving now",
-					"any&&any": "Hungry? McDonald’s Dinner Treats is serving now"
+					"any&&any": "Have an amazing {{day}} meal at McDonald’s"
 				}
 			}
 		}
