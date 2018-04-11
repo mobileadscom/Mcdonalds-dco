@@ -2,74 +2,86 @@ export default {
 	"creative": {
 		"weather": {
 			"Sunny": {
-				"language&&timeOfDay": {
-					"Japanese&&Afternoon": {
-						"type": "video",
-				        "url": "FGcRyY7uyEU"
+				"timeOfDay": {
+					"Afternoon": {
+						"language": {
+							"Japanese": {
+								"type": "video",
+						        "url": "FGcRyY7uyEU"
+							},
+							"Other": {
+								"type": "image",
+								"url": "./img/bg-Afternoon-sunny.jpg"
+							}
+						}
 					},
-					"any&&Morning": {
+					"Morning": {
 						"type": "image",
-						"url": "./img/bg-morning-sunny.jpg"
+						"url": "./img/bg-Morning-sunny.jpg"
 					},
-					"any&&Afternoon": {
+					"Evening": {
 						"type": "image",
-						"url": "./img/bg-afternoon-sunny.jpg"
+						"url": "./img/bg-Evening-sunny.jpg"
 					},
-					"any&&Evening": {
+					"Night": {
 						"type": "image",
-						"url": "./img/bg-evening-sunny.jpg"
-					},
-					"any&&Night": {
-						"type": "image",
-						"url": "./img/bg-night-sunny.jpg"
+						"url": "./img/bg-Night-sunny.jpg"
 					}
 				}
 			},
 			"Cloudy": {
-				"language&&timeOfDay": {
-					"Japanese&&Afternoon": {
-						"type": "video",
-				        "url": "FGcRyY7uyEU"
+				"timeOfDay": {
+				    "Afternoon": {
+						"language": {
+							"Japanese": {
+								"type": "video",
+						        "url": "FGcRyY7uyEU"
+							},
+							"Other": {
+								"type": "image",
+								"url": "./img/bg-Afternoon-cloudy.jpg"
+							}
+						}
 					},
-					"any&&Morning": {
+					"Morning": {
 						"type": "image",
-						"url": "./img/bg-morning-sunny.jpg"
+						"url": "./img/bg-Morning-cloudy.jpg"
 					},
-					"any&&Afternoon": {
+					"Evening": {
 						"type": "image",
-						"url": "./img/bg-afternoon-sunny.jpg"
+						"url": "./img/bg-Evening-cloudy.jpg"
 					},
-					"any&&Evening": {
+					"Night": {
 						"type": "image",
-						"url": "./img/bg-evening-sunny.jpg"
-					},
-					"any&&Night": {
-						"type": "image",
-						"url": "./img/bg-night-sunny.jpg"
+						"url": "./img/bg-Night-cloudy.jpg"
 					}
 				}
 			},
 			"Rainy": {
-				"language&&timeOfDay": {
-					"Japanese&&Afternoon": {
-						"type": "video",
-				        "url": "FGcRyY7uyEU"
+				"timeOfDay": {
+					"Afternoon": {
+						"language": {
+							"Japanese": {
+								"type": "video",
+						        "url": "FGcRyY7uyEU"
+							},
+							"Other": {
+								"type": "image",
+								"url": "./img/bg-Afternoon-rainy.jpg"
+							}
+						}
 					},
-					"any&&Morning": {
+					"Morning": {
 						"type": "image",
-						"url": "./img/bg-morning-sunny.jpg"
+						"url": "./img/bg-Morning-rainy.jpg"
 					},
-					"any&&Afternoon": {
+					"Evening": {
 						"type": "image",
-						"url": "./img/bg-afternoon-sunny.jpg"
+						"url": "./img/bg-Evening-rainy.jpg"
 					},
-					"any&&Evening": {
+					"Night": {
 						"type": "image",
-						"url": "./img/bg-evening-sunny.jpg"
-					},
-					"any&&Night": {
-						"type": "image",
-						"url": "./img/bg-night-sunny.jpg"
+						"url": "./img/bg-Night-rainy.jpg"
 					}
 				}
 			}
