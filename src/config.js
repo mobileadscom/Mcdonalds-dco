@@ -7,25 +7,25 @@ export default {
 						"language": {
 							"Japanese": {
 								"type": "video",
-						        "url": "FGcRyY7uyEU"
+						        "url": "./img/vid.mp4"
 							},
 							"Other": {
 								"type": "image",
-								"url": "./img/bg-Afternoon-sunny.jpg"
+								"url": "./img/bg-Afternoon-sunny.png"
 							}
 						}
 					},
 					"Morning": {
 						"type": "image",
-						"url": "./img/bg-Morning-sunny.jpg"
+						"url": "./img/bg-Morning-sunny.png"
 					},
 					"Evening": {
 						"type": "image",
-						"url": "./img/bg-Evening-sunny.jpg"
+						"url": "./img/bg-Evening-sunny.png"
 					},
 					"Night": {
 						"type": "image",
-						"url": "./img/bg-Night-sunny.jpg"
+						"url": "./img/bg-Night-sunny.png"
 					}
 				}
 			},
@@ -35,25 +35,25 @@ export default {
 						"language": {
 							"Japanese": {
 								"type": "video",
-						        "url": "FGcRyY7uyEU"
+						        "url": "./img/vid.mp4"
 							},
 							"Other": {
 								"type": "image",
-								"url": "./img/bg-Afternoon-cloudy.jpg"
+								"url": "./img/bg-Afternoon-cloudy.png"
 							}
 						}
 					},
 					"Morning": {
 						"type": "image",
-						"url": "./img/bg-Morning-cloudy.jpg"
+						"url": "./img/bg-Morning-cloudy.png"
 					},
 					"Evening": {
 						"type": "image",
-						"url": "./img/bg-Evening-cloudy.jpg"
+						"url": "./img/bg-Evening-cloudy.png"
 					},
 					"Night": {
 						"type": "image",
-						"url": "./img/bg-Night-cloudy.jpg"
+						"url": "./img/bg-Night-cloudy.png"
 					}
 				}
 			},
@@ -63,167 +63,190 @@ export default {
 						"language": {
 							"Japanese": {
 								"type": "video",
-						        "url": "FGcRyY7uyEU"
+						        "url": "./img/vid.mp4"
 							},
 							"Other": {
 								"type": "image",
-								"url": "./img/bg-Afternoon-rainy.jpg"
+								"url": "./img/bg-Afternoon-rainy.png"
 							}
 						}
 					},
 					"Morning": {
 						"type": "image",
-						"url": "./img/bg-Morning-rainy.jpg"
+						"url": "./img/bg-Morning-rainy.png"
 					},
 					"Evening": {
 						"type": "image",
-						"url": "./img/bg-Evening-rainy.jpg"
+						"url": "./img/bg-Evening-rainy.png"
 					},
 					"Night": {
 						"type": "image",
-						"url": "./img/bg-Night-rainy.jpg"
+						"url": "./img/bg-Night-rainy.png"
+					}
+				}
+			},
+			"Other": {
+				"timeOfDay": {
+					"Afternoon": {
+						"language": {
+							"Japanese": {
+								"type": "video",
+						        "url": "./img/vid.mp4"
+							},
+							"Other": {
+								"type": "image",
+								"url": "./img/bg-Afternoon-sunny.png"
+							}
+						}
+					},
+					"Morning": {
+						"type": "image",
+						"url": "./img/bg-Morning-sunny.png"
+					},
+					"Evening": {
+						"type": "image",
+						"url": "./img/bg-Evening-sunny.png"
+					},
+					"Night": {
+						"type": "image",
+						"url": "./img/bg-Night-sunny.png"
 					}
 				}
 			}
 		}
 	},
 	"headline": {
-		"language&&timeOfDay": {
-			"Japanese&&Afternoon": {
-				"text": "McDonald's",
-				"style": "color:white;"
-			},
-			"Other": "McDonald's",
-		}
+		"text": "McBURGERS",
+		"style": "color:white;"
 	},
 	"description": {
 		"day": {
 			"Monday": {
 				"language&&timeOfDay": {
-					"Japanese&&Morning": "月曜日のブルース？ McDonald'sですばらしい朝食を",
+					"Japanese&&Morning": "月曜日のブルース？ McBURGERSで素晴らしい朝食を",
 					"Japanese&&Afternoon": "昼食の時間！高価な食事は$ 1.99で始まります",
-					"Japanese&&Evening": "飢えた？マクドナルドディナートリートは現在提供中",
-					"Japanese&&any": "マクドナルドで素晴らしい月曜日の食事をしてください",
-					"Indonesian&&Morning": "Senin Kelabu? Dapatkan sarapan seru di McDonald’s",
-					"Indonesian&&Afternoon": "Saatnya Makan Siang! Makan murah mulai dari Rp.12.500",
-					"Indonesian&&Evening": "Lapar? Makan malam siap tersaji di McDonald’s",
-					"Indonesian&&any": "Dapatkan sajian seru di Hari {{day}} di McDonald’s",
-					"any&&Morning": "Monday Blues? Have an amazing breakfast at McDonald’s",
-					"any&&Afternoon": "Time for Lunch! Value meal starts at only $1.99",
-					"any&&Evening": "Hungry? McDonald’s Dinner Treats is serving now",
-					"any&&any": "Have an amazing {{day}} meal at McDonald’s"
+					"Japanese&&Evening": "飢えた？マクバーガーディナートリートは現在提供中です",
+					"Japanese&&any": "McBURGERSで素晴らしい月曜日の食事を",
+					"Indonesian&&Morning": "Senin Kelabu? Dapatkan Sarapan Seru Di McBURGERS",
+					"Indonesian&&Afternoon": "Saatnya Makan Siang! Makan Murah Mulai Dari Rp.12.500",
+					"Indonesian&&Evening": "Lapar? Makan Malam Siap Tersaji Di McBURGERS",
+					"Indonesian&&Any": "Dapatkan Sajian Seru Di Hari {{day}} Di McBURGERS",
+					"Any&&Morning": "Monday Blues? Have An Amazing Breakfast At McBURGERS",
+					"Any&&Afternoon": "Time For Lunch! Value Meal Starts At Only $1.99",
+					"Any&&Evening": "Hungry? McBURGERS Dinner Treats Is Serving Now",
+					"Any&&Any": "Have An Amazing {{day}} Meal At McBURGERS"
 				},
 			},
 			"Tuesday": {
 				"language&&timeOfDay": {
-					"Japanese&&Morning": "おはようございます！マクドナルドで素晴らしい朝食をお楽しみください",
+					"Japanese&&Morning": "おはようございます！ McBURGERSで素晴らしい朝食をお楽しみください。",
 					"Japanese&&Afternoon": "昼食の時間！高価な食事は$ 1.99で始まります",
-					"Japanese&&Evening": "飢えた？マクドナルドディナートリートは現在提供中",
-					"Japanese&&any": "McDonald'sですばらしい火曜日の食事があります",
-					"Indonesian&&Morning": "Selamat Pagi! Mulai harimu dengan sarapan seru di McDonald’s",
-					"Indonesian&&Afternoon": "Saatnya Makan Siang! Makan murah mulai dari Rp.12.500",
-					"Indonesian&&Evening": "Lapar? Makan malam siap tersaji di McDonald’s",
-					"Indonesian&&any": "Dapatkan sajian seru di Hari {{day}} di McDonald’s",
-					"any&&Morning": "Good Morning! Start your day with an amazing breakfast at McDonald’s",
-					"any&&Afternoon": "Time for Lunch! Value meal starts at only $1.99",
-					"any&&Evening": "Hungry? McDonald’s Dinner Treats is serving now",
-					"any&&any": "Have an amazing {{day}} meal at McDonald’s"
+					"Japanese&&Evening": "飢えた？マクバーガーディナートリートは現在提供中です",
+					"Japanese&&any": "McBURGERSで素晴らしい火曜日の食事があります",
+					"Indonesian&&Morning": "Selamat Pagi! Mulai Harimu Dengan Sarapan Seru Di McBURGERS",
+					"Indonesian&&Afternoon": "Saatnya Makan Siang! Makan Murah Mulai Dari Rp.12.500",
+					"Indonesian&&Evening": "Lapar? Makan Malam Siap Tersaji Di McBURGERS",
+					"Indonesian&&Any": "Dapatkan Sajian Seru Di Hari {{day}} Di McBURGERS",
+					"Any&&Morning": "Good Morning! Start Your Day With An Amazing Breakfast At McBURGERS",
+					"Any&&Afternoon": "Time For Lunch! Value Meal Starts At Only $1.99",
+					"Any&&Evening": "Hungry? McBURGERS Dinner Treats Is Serving Now",
+					"Any&&Any": "Have An Amazing {{day}} Meal At McBURGERS"
 				}
 			},
 			"Wednesday": {
 				"language&&timeOfDay": {
-					"Japanese&&Morning": "おはようございます！マクドナルドで素晴らしい朝食をお楽しみください",
+					"Japanese&&Morning": "おはようございます！ McBURGERSで素晴らしい朝食をお楽しみください。",
 					"Japanese&&Afternoon": "昼食の時間！高価な食事は$ 1.99で始まります",
-					"Japanese&&Evening": "飢えた？マクドナルドディナートリートは現在提供中",
-					"Japanese&&any": "McDonald'sですばらしい水曜日の食事をしてください",
-					"Indonesian&&Morning": "Selamat Pagi! Mulai harimu dengan sarapan seru di McDonald’s",
-					"Indonesian&&Afternoon": "Saatnya Makan Siang! Makan murah mulai dari Rp.12.500",
-					"Indonesian&&Evening": "Lapar? Makan malam siap tersaji di McDonald’s",
-					"Indonesian&&any": "Dapatkan sajian seru di Hari {{day}} di McDonald’s",
-					"any&&Morning": "Good Morning! Start your day with an amazing breakfast at McDonald’s",
-					"any&&Afternoon": "Time for Lunch! Value meal starts at only $1.99",
-					"any&&Evening": "Hungry? McDonald’s Dinner Treats is serving now",
-					"any&&any": "Have an amazing {{day}} meal at McDonald’s"
+					"Japanese&&Evening": "飢えた？マクバーガーディナートリートは現在提供中です",
+					"Japanese&&any": "McBURGERSですばらしい水曜日の食事があります",
+					"Indonesian&&Morning": "Selamat Pagi! Mulai Harimu Dengan Sarapan Seru Di McBURGERS",
+					"Indonesian&&Afternoon": "Saatnya Makan Siang! Makan Murah Mulai Dari Rp.12.500",
+					"Indonesian&&Evening": "Lapar? Makan Malam Siap Tersaji Di McBURGERS",
+					"Indonesian&&Any": "Dapatkan Sajian Seru Di Hari {{day}} Di McBURGERS",
+					"Any&&Morning": "Good Morning! Start Your Day With An Amazing Breakfast At McBURGERS",
+					"Any&&Afternoon": "Time For Lunch! Value Meal Starts At Only $1.99",
+					"Any&&Evening": "Hungry? McBURGERS Dinner Treats Is Serving Now",
+					"Any&&Any": "Have An Amazing {{day}} Meal At McBURGERS"
 				}
 			},
 			"Thursday": {
 				"language&&timeOfDay": {
-					"Japanese&&Morning": "おはようございます！マクドナルドで素晴らしい朝食をお楽しみください",
+					"Japanese&&Morning": "おはようございます！ McBURGERSで素晴らしい朝食をお楽しみください。",
 					"Japanese&&Afternoon": "昼食の時間！高価な食事は$ 1.99で始まります",
-					"Japanese&&Evening": "飢えた？マクドナルドディナートリートは現在提供中",
-					"Japanese&&any": "McDonald'sですばらしい木曜日の食事があります",
-					"Indonesian&&Morning": "Selamat Pagi! Mulai harimu dengan sarapan seru di McDonald’s",
-					"Indonesian&&Afternoon": "Saatnya Makan Siang! Makan murah mulai dari Rp.12.500",
-					"Indonesian&&Evening": "Lapar? Makan malam siap tersaji di McDonald’s",
-					"Indonesian&&any": "Dapatkan sajian seru di Hari {{day}} di McDonald’s",
-					"any&&Morning": "Good Morning! Start your day with an amazing breakfast at McDonald’s",
-					"any&&Afternoon": "Time for Lunch! Value meal starts at only $1.99",
-					"any&&Evening": "Hungry? McDonald’s Dinner Treats is serving now",
-					"any&&any": "Have an amazing {{day}} meal at McDonald’s"
+					"Japanese&&Evening": "飢えた？マクバーガーディナートリートは現在提供中です",
+					"Japanese&&any": "McBURGERSで素晴らしい木曜日の食事をしてください",
+					"Indonesian&&Morning": "Selamat Pagi! Mulai Harimu Dengan Sarapan Seru Di McBURGERS",
+					"Indonesian&&Afternoon": "Saatnya Makan Siang! Makan Murah Mulai Dari Rp.12.500",
+					"Indonesian&&Evening": "Lapar? Makan Malam Siap Tersaji Di McBURGERS",
+					"Indonesian&&Any": "Dapatkan Sajian Seru Di Hari {{day}} Di McBURGERS",
+					"Any&&Morning": "Good Morning! Start Your Day With An Amazing Breakfast At McBURGERS",
+					"Any&&Afternoon": "Time For Lunch! Value Meal Starts At Only $1.99",
+					"Any&&Evening": "Hungry? McBURGERS Dinner Treats Is Serving Now",
+					"Any&&Any": "Have An Amazing {{day}} Meal At McBURGERS"
 				}
 			},
 			"Friday": {
 				"language&&timeOfDay": {
-					"Japanese&&Morning": "TGIF！ McDonald'sで素晴らしい朝食を食べに行きなさい",
+					"Japanese&&Morning": "TGIF！ McBURGERSで素晴らしい朝食を食べに行きなさい",
 					"Japanese&&Afternoon": "昼食の時間！高価な食事は$ 1.99で始まります",
-					"Japanese&&Evening": "TGIF！マクドナルドディナートリートでお祝いください！",
-					"Japanese&&any": "McDonald'sですばらしい金曜日の食事があります",
-					"Indonesian&&Morning": "TGIF! Nikmati sarapan seru di McDonald’s",
-					"Indonesian&&Afternoon": "Saatnya Makan Siang! Makan murah mulai dari Rp.12.500",
-					"Indonesian&&Evening": "TGIF! Rayakan dengan Sajian Makan Malam di McDonald’s",
-					"Indonesian&&any": "Dapatkan sajian seru di Hari {{day}} di McDonald’s",
-					"any&&Morning": "TGIF! Go grab an amazing breakfast at McDonald’s",
-					"any&&Afternoon": "Time for Lunch! Value meal starts at only $1.99",
-					"any&&Evening": "TGIF! Celebrate it with McDonald’s Dinner Treats!",
-					"any&&any": "Have an amazing {{day}} meal at McDonald’s"
+					"Japanese&&Evening": "TGIF！マクバーガーディナートリートでお祝いください！",
+					"Japanese&&any": "McBURGERSで素晴らしい金曜日の食事があります",
+					"Indonesian&&Morning": "TGIF! Nikmati Sarapan Seru Di McBURGERS",
+					"Indonesian&&Afternoon": "Saatnya Makan Siang! Makan Murah Mulai Dari Rp.12.500",
+					"Indonesian&&Evening": "TGIF! Rayakan Dengan Sajian Makan Malam Di McBURGERS",
+					"Indonesian&&Any": "Dapatkan Sajian Seru Di Hari {{day}} Di McBURGERS",
+					"Any&&Morning": "TGIF! Go Grab An Amazing Breakfast At McBURGERS",
+					"Any&&Afternoon": "Time For Lunch! Value Meal Starts At Only $1.99",
+					"Any&&Evening": "TGIF! Celebrate It With McBURGERS Dinner Treats!",
+					"Any&&Any": "Have An Amazing {{day}} Meal At McBURGERS"
 				}
 			},
 			"Saturday": {
 				"language&&timeOfDay": {
-					"Japanese&&Morning": "おはようございます！マクドナルドで素晴らしい朝食をお楽しみください",
+					"Japanese&&Morning": "おはようございます！ McBURGERSで素晴らしい朝食をお楽しみください。",
 					"Japanese&&Afternoon": "昼食の時間！高価な食事は$ 1.99で始まります",
-					"Japanese&&Evening": "飢えた？マクドナルドディナートリートは現在提供中",
-					"Japanese&&any": "マクドナルドで素晴らしい土曜日の食事をしてください",
-					"Indonesian&&Morning": "Selamat Pagi! Mulai harimu dengan sarapan seru di McDonald’s",
-					"Indonesian&&Afternoon": "Saatnya Makan Siang! Makan murah mulai dari Rp.12.500",
-					"Indonesian&&Evening": "Lapar? Makan malam siap tersaji di McDonald’s",
-					"Indonesian&&any": "Dapatkan sajian seru di Hari {{day}} di McDonald’s",
-					"any&&Morning": "Good Morning! Start your day with an amazing breakfast at McDonald’s",
-					"any&&Afternoon": "Time for Lunch! Value meal starts at only $1.99",
-					"any&&Evening": "Hungry? McDonald’s Dinner Treats is serving now",
-					"any&&any": "Have an amazing {{day}} meal at McDonald’s"
+					"Japanese&&Evening": "飢えた？マクバーガーディナートリートは現在提供中です",
+					"Japanese&&any": "McBURGERSで素晴らしい土曜日の食事をしてください",
+					"Indonesian&&Morning": "Selamat Pagi! Mulai Harimu Dengan Sarapan Seru Di McBURGERS",
+					"Indonesian&&Afternoon": "Saatnya Makan Siang! Makan Murah Mulai Dari Rp.12.500",
+					"Indonesian&&Evening": "Lapar? Makan Malam Siap Tersaji Di McBURGERS",
+					"Indonesian&&Any": "Dapatkan Sajian Seru Di Hari {{day}} Di McBURGERS",
+					"Any&&Morning": "Good Morning! Start Your Day With An Amazing Breakfast At McBURGERS",
+					"Any&&Afternoon": "Time For Lunch! Value Meal Starts At Only $1.99",
+					"Any&&Evening": "Hungry? McBURGERS Dinner Treats Is Serving Now",
+					"Any&&Any": "Have An Amazing {{day}} Meal At McBURGERS"
 				}
 			},
 			"Sunday": {
 				"language&&timeOfDay": {
-					"Japanese&&Morning": "おはようございます！マクドナルドで素晴らしい朝食をお楽しみください",
+					"Japanese&&Morning": "おはようございます！ McBURGERSで素晴らしい朝食をお楽しみください。",
 					"Japanese&&Afternoon": "昼食の時間！高価な食事は$ 1.99で始まります",
-					"Japanese&&Evening": "飢えた？マクドナルドディナートリートは現在提供中",
-					"Japanese&&any": "McDonald'sですばらしい日曜日の食事があります",
-					"Indonesian&&Morning": "Selamat Pagi! Mulai harimu dengan sarapan seru di McDonald’s",
-					"Indonesian&&Afternoon": "Saatnya Makan Siang! Makan murah mulai dari Rp.12.500",
-					"Indonesian&&Evening": "Lapar? Makan malam siap tersaji di McDonald’s",
-					"Indonesian&&any": "Dapatkan sajian seru di Hari {{day}} di McDonald’s",
-					"any&&Morning": "Good Morning! Start your day with an amazing breakfast at McDonald’s",
-					"any&&Afternoon": "Time for Lunch! Value meal starts at only $1.99",
-					"any&&Evening": "Hungry? McDonald’s Dinner Treats is serving now",
-					"any&&any": "Have an amazing {{day}} meal at McDonald’s"
+					"Japanese&&Evening": "飢えた？マクバーガーディナートリートは現在提供中です",
+					"Japanese&&any": "McBURGERSですばらしい日曜日の食事があります",
+					"Indonesian&&Morning": "Selamat Pagi! Mulai Harimu Dengan Sarapan Seru Di McBURGERS",
+					"Indonesian&&Afternoon": "Saatnya Makan Siang! Makan Murah Mulai Dari Rp.12.500",
+					"Indonesian&&Evening": "Lapar? Makan Malam Siap Tersaji Di McBURGERS",
+					"Indonesian&&Any": "Dapatkan Sajian Seru Di Hari {{day}} Di McBURGERS",
+					"Any&&Morning": "Good Morning! Start Your Day With An Amazing Breakfast At McBURGERS",
+					"Any&&Afternoon": "Time For Lunch! Value Meal Starts At Only $1.99",
+					"Any&&Evening": "Hungry? McBURGERS Dinner Treats Is Serving Now",
+					"Any&&Any": "Have An Amazing {{day}} Meal At McBURGERS"
 				}
 			},
 			"Other": {
 				"language&&timeOfDay": {
-					"Japanese&&Morning": "おはようございます！マクドナルドで素晴らしい朝食をお楽しみください",
+					"Japanese&&Morning": "おはようございます！ McBURGERSで素晴らしい朝食をお楽しみください。",
 					"Japanese&&Afternoon": "昼食の時間！高価な食事は$ 1.99で始まります",
-					"Japanese&&Evening": "飢えた？マクドナルドディナートリートは現在提供中",
-					"Japanese&&any": "McDonald'sで素晴らしい{{day}}食事をしてください",
-					"Indonesian&&Morning": "Selamat Pagi! Mulai harimu dengan sarapan seru di McDonald’s",
-					"Indonesian&&Afternoon": "Saatnya Makan Siang! Makan murah mulai dari Rp.12.500",
-					"Indonesian&&Evening": "Lapar? Makan malam siap tersaji di McDonald’s",
-					"Indonesian&&any": "Dapatkan sajian seru di Hari {{day}} di McDonald’s",
-					"any&&Morning": "Good Morning! Start your day with an amazing breakfast at McDonald’s",
-					"any&&Afternoon": "Time for Lunch! Value meal starts at only $1.99",
-					"any&&Evening": "Hungry? McDonald’s Dinner Treats is serving now",
-					"any&&any": "Have an amazing {{day}} meal at McDonald’s"
+					"Japanese&&Evening": "飢えた？マクバーガーディナートリートは現在提供中です",
+					"Japanese&&any": "McBURGERSで{{day}}の素晴らしい食事をお楽しみください",
+					"Indonesian&&Morning": "Selamat Pagi! Mulai Harimu Dengan Sarapan Seru Di McBURGERS",
+					"Indonesian&&Afternoon": "Saatnya Makan Siang! Makan Murah Mulai Dari Rp.12.500",
+					"Indonesian&&Evening": "Lapar? Makan Malam Siap Tersaji Di McBURGERS",
+					"Indonesian&&Any": "Dapatkan Sajian Seru Di Hari {{day}} Di McBURGERS",
+					"Any&&Morning": "Good Morning! Start Your Day With An Amazing Breakfast At McBURGERS",
+					"Any&&Afternoon": "Time For Lunch! Value Meal Starts At Only $1.99",
+					"Any&&Evening": "Hungry? McBURGERS Dinner Treats Is Serving Now",
+					"Any&&Any": "Have An Amazing {{day}} Meal At McBURGERS"
 				}
 			}
 		}
@@ -233,46 +256,82 @@ export default {
 			"Mobile": {
 				"weather": {
 					"Rainy": {
-						"text": "Call Us Now",
-						"url": "https://www.mcdonalds.com/us/en-us/mcdelivery.html"
+						"language": {
+							"Japanese": {
+								"text": "私たちに電話する",
+								"url": "user will be redirected to their phone dialer with the store\\'s phone number"
+							},
+							"Indonesian": {
+								"text": "HUBUNGI KAMI SEKARANG",
+								"url": "user will be redirected to their phone dialer with the store\\'s phone number"
+							},
+							"Other": {
+								"text": "CALL US NOW",
+								"url": "user will be redirected to their phone dialer with the store\\'s phone number"
+							}
+						}
 				    },
 					"Other": {
-						"text": "Order Now",
-						"url": "https://www.mcdonalds.com/us/en-us/mcdelivery.html"
+						"language": {
+							"Japanese": {
+								"text": "今すぐ注文",
+								"url": "user will be redirected to their phone dialer with the store\\'s phone number"
+							},
+							"Indonesian": {
+								"text": "PESAN SEAKRANG",
+								"url": "user will be redirected to their phone dialer with the store\\'s phone number"
+							},
+							"Other": {
+								"text": "CALL US NOW",
+								"url": "user will be redirected to their phone dialer with the store\\'s phone number"
+							}
+						}
 					}
 				}
 			},
 			"Tablet": {
 				"weather": {
 					"Sunny": {
-						"text":"McDonald's in {{city}}",
-						"url":"https://www.google.com/maps/search/mcdonalds+in+{{city}}"
+						"text":"McBURGERS IN {{city}}",
+						"url":"user will be redirected to google map with the location of the stores in the city"
 					},
 					"Other": {
-						"text": "Order Now",
-						"url": "https://www.mcdonalds.com/us/en-us/mcdelivery.html"
+						"language": {
+							"Japanese": {
+								"text": "今すぐ注文",
+								"url": "user will be redirected to the store\\'s Japanese site",
+							},
+							"Indonesian": {
+								"text": "PESAN SEAKRANG",
+								"url": "user will be redirected to the store\\'s Indonesian site",
+							},
+							"Other": {
+								"text": "ORDER NOW",
+								"url": "user will be redirected to the store\\'s english site",
+							},
+						}
 					}
 				}
 			},
 			"Desktop": {
 				"language": {
 					"Japanese": {
-						"text": "Order Now",
-						"url": "https://mcdelivery.mcdonalds.com/jp/?locale=en",
+						"text": "今すぐ注文",
+						"url": "user will be redirected to the store\\'s Japanese site",
 					},
 					"Indonesian": {
-						"text": "Order Now",
-						"url": "https://www.mcdelivery.co.id/id/?locale=en",
+						"text": "PESAN SEAKRANG",
+						"url": "user will be redirected to the store\\'s Indonesian site",
 					},
 					"Other": {
-						"text": "Order Now",
-						"url": "https://www.mcdonalds.com/us/en-us/mcdelivery.html",
+						"text": "ORDER NOW",
+						"url": "user will be redirected to the store\\'s english site",
 					},
 				}
 			},
 			"Other": {
 				"text": "Order Now",
-				"url": "https://www.mcdonalds.com/us/en-us/mcdelivery.html"
+				"url": "user will be redirected to the store\\'s english site"
 			}
 		}
 	}

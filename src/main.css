@@ -3,8 +3,8 @@ label {
 	display: inline-block;
 }
 #rma-widget, #ad-container {
-	width: 320px;
-	height: 300px;
+	width: 300px;
+	height: 250px;
 }
 #ad-container {
 	position: absolute;
@@ -18,8 +18,8 @@ label {
 	right: 0;
 }
 #ad-background {
-	width: 320px;
-	height: 300px;
+	width: 300px;
+	height: 250px;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -32,7 +32,7 @@ label {
 	margin: 0.4em;
 	margin-top: 10px;
 	text-align: center;
-	font-size: 1.6em;
+	font-size: 1.5em;
 	position: relative;
 	z-index: 10;
 }
@@ -44,7 +44,7 @@ label {
 	margin-right: 1em;
 	position: relative;
 	z-index: 10;
-	margin-top: 0.1em;
+	margin-top: 0.5em;
 }
 #ad-cta {
 	position: absolute;
@@ -52,16 +52,20 @@ label {
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
 	bottom: 1em;
-	border-radius: 3px;
-	background: #ee343d;
+	border-radius: 12px;
+	border: 1px solid #8a060a;
+	background: #e71c22;
 	color: white;
-	font-size: 1.4em;
+	font-size: 0.8em;
 	padding: 8px 12px;
 	text-decoration: none;
 	z-index: 10;
 }
+#ad-cta:hover {
+	cursor: pointer;
+}
 #ad-description {
-	color: #ee343d;
+	color: #e71c22;
 }
 .video-bg #ad-description {
 	color: white;
@@ -77,13 +81,13 @@ label {
     margin-top: 330px;
     position: relative;
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
+    justify-content: center;
 }
 .left-section, .right-section {
 	margin-top: 0;
 	box-sizing: border-box;
-	margin-left: 20px;
-	margin-right: 20px;
+
 	border: 1px solid #d8e8dc;
 	background: #f1f7f3;
 	padding: 0 1em 1em;
